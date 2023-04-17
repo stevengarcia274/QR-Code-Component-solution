@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  background: rgb(210, 230, 240);
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  background: white;
+  padding: 16px 12px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(3, 30, 65);
+  margin-bottom: 8px;
+}
+
+.card-details {
+  color: rgb(128, 127, 127);
+  font-weight: 400;
+}
+
+section {
+  margin-bottom: 24px;
+}
