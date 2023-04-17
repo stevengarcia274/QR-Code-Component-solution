@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-  background: white;
+  background: red;
   padding: 16px 12px;
   border-radius: 16px;
   display: flex;
