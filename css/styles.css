@@ -8,43 +8,35 @@
 }
 
 body {
-  display: grid;
+  display: flex;
   min-height: 100vh;
-  background: rgb(210, 230, 240);
+  background: hsl(212, 45%, 89%);
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .card {
   background: white;
-  padding: 16px 12px;
+  padding: 16px;
   border-radius: 16px;
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  height: 500px;
   max-width: 300px;
-  min-width: 215px;
 }
 
 .card-img {
   width: 100%;
   border-radius: 16px;
-  margin-bottom: 16px;
 }
 
 .card-title {
   font-size: 1.3rem;
   font-weight: 600;
   color: rgb(3, 30, 65);
-  margin-bottom: 8px;
+  margin: 20px 0;
 }
 
 .card-details {
   color: rgb(128, 127, 127);
   font-weight: 400;
-}
-
-section {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
